@@ -280,3 +280,20 @@ The LeaveGroupDialog component exemplifies robust handling of asynchronous opera
 - *Result:* Achieved a highly responsive chat experience where messages, friend requests, and group changes appear instantly for all users.
 
 ---
+### 🗂 Group & Friend Management Logic
+
+- *Situation:* The app required complex logic for group creation, membership, and friend requests.
+- *Task:* Design scalable backend and UI flows for managing friends and groups, including edge cases.
+- *Action:* Modeled users, groups, and memberships in Convex, built robust APIs for adding/removing members, and implemented confirmation dialogs for critical actions.
+- *Result:* Enabled users to easily create, join, leave, and manage groups and friendships, with clear feedback and error handling.
+
+---
+
+### 🛠 Error Handling & User Feedback
+
+- *Situation:* Real-time operations and async actions could fail or produce unexpected results.
+- *Task:* Provide clear, actionable feedback for all user actions and errors.
+- *Action:* Used Sonner for toast notifications, differentiated between known and unknown errors, and built fallback UI for empty/error states.
+- *Result:* Users always receive immediate, understandable feedback, improving trust and usability.
+
+---
