@@ -220,3 +220,22 @@ The LeaveGroupDialog component exemplifies robust handling of asynchronous opera
 ## 5. Error Handling and User Feedback 🚨
 - Implemented robust error handling with clear, user-friendly feedback using *Sonner* for toast notifications.
 - Differentiated between known and unknown errors to provide precise and meaningful messages.
+
+## 6. Critical Action Confirmation ⚠
+- Designed confirmation dialogs (e.g., LeaveGroupDialog) for critical actions, ensuring users are well informed about irreversible changes.
+- Utilized accessible and intuitive dialog components to enhance user confidence and safety.
+
+## 7. State Management 🔄
+- Managed complex component states using React hooks such as useState and custom hooks like useMutationState.
+- Ensured smooth user interactions by effectively handling pending states and preventing duplicate actions.
+
+## 8. Dark Mode Support 🌙
+- Added dark mode functionality, allowing users to seamlessly toggle between light and dark themes for a personalized experience.
+
+## 9. Team Collaboration and Group Management 👥
+- Implemented features for creating, managing, and leaving group conversations.
+- Demonstrated the ability to handle complex relational data structures within a real-time environment.
+
+## 10. Scalability and Performance 🚀
+- Designed the application to effortlessly scale using a serverless backend, ensuring high performance under load.
+- Optimized API calls and implemented lazy-loading for components to enhance performance and minimize resource usage.
