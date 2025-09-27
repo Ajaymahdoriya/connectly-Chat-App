@@ -315,3 +315,20 @@ The LeaveGroupDialog component exemplifies robust handling of asynchronous opera
 - *Result:* Maintained secure, real-time access control and data flow without breaking SSR or leaking sensitive data.
 
 ---
+### 🚀 Deployment & Environment Management
+
+- *Situation:* Needed to deploy Connectly securely with different environments and secrets.
+- *Task:* Manage environment variables and deployment settings for Vercel and Convex.
+- *Action:* Documented required environment variables, used Vercel’s environment manager, and automated deployment steps for CI/CD.
+- *Result:* Achieved reliable, secure deployments with no secret leaks and smooth updates.
+
+---
+
+### 📦 Learning Convex & Radix UI
+
+- *Situation:* Convex and Radix UI were new technologies with limited documentation.
+- *Task:* Quickly become proficient and leverage their strengths for real-time data and accessible UI.
+- *Action:* Explored community resources, built modular components, and iteratively refined schemas and UI patterns.
+- *Result:* Successfully delivered a scalable, real-time chat app with a modern, accessible interface—skills now transferable to future projects.
+
+---
