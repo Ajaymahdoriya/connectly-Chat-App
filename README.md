@@ -260,3 +260,6 @@ The LeaveGroupDialog component exemplifies robust handling of asynchronous opera
 - Enhanced problem-solving skills by addressing challenges in real-time updates, error handling, and state management.
 
 ---
+## ⭐ Connectly Project: STAR-Format
+
+---
