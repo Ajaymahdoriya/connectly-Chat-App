@@ -332,3 +332,20 @@ The LeaveGroupDialog component exemplifies robust handling of asynchronous opera
 - *Result:* Successfully delivered a scalable, real-time chat app with a modern, accessible interface—skills now transferable to future projects.
 
 ---
+### 🧩 Leave Group Dialog (Critical Action Confirmation)
+
+- *Situation:* Leaving a group is a critical, irreversible action requiring user confirmation and robust error handling.
+- *Task:* Build a dialog that prevents accidental group exits and provides clear feedback.
+- *Action:* Used accessible AlertDialog components, managed async mutation state, disabled buttons during processing, and provided toast notifications for success/error.
+- *Result:* Users are protected from accidental actions, always informed of outcomes, and experience a smooth, accessible UI.
+
+---
+
+### 📱 Responsive & Accessible Design
+
+- *Situation:* The app needed to be usable on all devices and by all users, including those with assistive tech.
+- *Task:* Ensure full responsiveness and accessibility.
+- *Action:* Leveraged TailwindCSS for layouts, Radix UI for accessible primitives, and tested keyboard navigation and screen reader support.
+- *Result:* Connectly is fully usable and visually appealing on any device, for any user.
+
+---
