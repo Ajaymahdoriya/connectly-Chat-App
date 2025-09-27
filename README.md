@@ -44,3 +44,22 @@ Connectly is a modern, real-time chat application built with cutting-edge techno
 - Fallback components for empty states (e.g., no conversations or friend requests).
 
 ---
+## 🛠 Tech Stack
+
+### *Frontend*
+- [Next.js](https://nextjs.org) - React framework for server-side rendering and static site generation.
+- [TailwindCSS](https://tailwindcss.com) - Utility-first CSS framework for styling.
+- [Radix UI](https://www.radix-ui.com) - Accessible and customizable UI primitives.
+- [Lucide Icons](https://lucide.dev) - Beautiful and consistent icons.
+
+### *Backend*
+- [Convex](https://convex.dev) - Real-time database and serverless backend.
+- [Clerk](https://clerk.dev) - Authentication and user management.
+
+### *Other Tools*
+- [React Hook Form](https://react-hook-form.com) - Form validation and management.
+- [Zod](https://zod.dev) - Schema validation for forms and APIs.
+- [Sonner](https://sonner.dev) - Toast notifications.
+- [Date-fns](https://date-fns.org) - Date manipulation library.
+
+---
