@@ -239,3 +239,24 @@ The LeaveGroupDialog component exemplifies robust handling of asynchronous opera
 ## 10. Scalability and Performance 🚀
 - Designed the application to effortlessly scale using a serverless backend, ensuring high performance under load.
 - Optimized API calls and implemented lazy-loading for components to enhance performance and minimize resource usage.
+
+## 11. Error Resilience 🔧
+- Ensured application stability through graceful error handling and fallback UI components, even during unexpected failures.
+
+## 12. Modern Development Practices 💻
+- Adhered to best practices in React development, including component-based architecture and TypeScript for enhanced type safety.
+- Maintained high code quality with tools like *ESLint* and *Prettier*, ensuring consistency and readability.
+
+## 13. Deployment and CI/CD 🚢
+- Deployed the application on *Vercel*, demonstrating proficiency with modern deployment pipelines.
+- Configured environment variables and streamlined the deployment process for reliability.
+
+## 14. User-Centric Design 🎨
+- Focused on delivering a seamless, intuitive user experience with real-time notifications, responsive design, and accessible components.
+- Ensured the design catered to both technical and non-technical users.
+
+## 15. Learning and Growth 📚
+- Gained hands-on experience with cutting-edge technologies such as *Convex, **Clerk, **TailwindCSS, and **Radix UI*.
+- Enhanced problem-solving skills by addressing challenges in real-time updates, error handling, and state management.
+
+---
