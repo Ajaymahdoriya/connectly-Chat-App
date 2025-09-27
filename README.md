@@ -263,3 +263,20 @@ The LeaveGroupDialog component exemplifies robust handling of asynchronous opera
 ## ⭐ Connectly Project: STAR-Format
 
 ---
+### 🔐 Clerk Authentication Integration
+
+- *Situation:* We needed secure, seamless authentication and user management for Connectly.
+- *Task:* Integrate Clerk to handle user sign-up, sign-in, and session management, ensuring security and a smooth UX.
+- *Action:* Implemented Clerk’s APIs for registration, login, and profile management, synchronized sessions with Convex, and handled edge cases like token refresh and session expiry.
+- *Result:* Delivered robust authentication with minimal friction, enabling secure access and a personalized experience for every user.
+
+---
+
+### 💬 Real-Time Messaging with Convex
+
+- *Situation:* Users expected instant message delivery and updates in all conversations and groups.
+- *Task:* Build a real-time chat system with instant updates and no stale data.
+- *Action:* Leveraged Convex’s real-time queries and subscriptions, managed cache invalidation, and implemented optimistic UI updates for smooth messaging.
+- *Result:* Achieved a highly responsive chat experience where messages, friend requests, and group changes appear instantly for all users.
+
+---
