@@ -63,3 +63,43 @@ Connectly is a modern, real-time chat application built with cutting-edge techno
 - [Date-fns](https://date-fns.org) - Date manipulation library.
 
 ---
+
+### Installation
+
+1. Clone the repository:
+   bash
+   git clone https://github.com/Aashay30/connectly.git
+   cd connectly
+   
+
+2. Install dependencies:
+  bash
+  npm install
+  # or
+  yarn install
+  # or
+  pnpm install
+  
+
+3. Set up environment variables:
+
+Create a .env.local file in the root directory.
+Add the following variables:
+
+  bash
+  NEXT_PUBLIC_CONVEX_URL=<your-convex-url>
+  CLERK_WEBHOOK_SECRET=<your-clerk-webhook-secret>
+  
+
+4. Start the development server:
+
+  bash
+  npm run dev
+  # or
+  yarn dev
+  # or
+  pnpm dev
+  
+
+---
+
