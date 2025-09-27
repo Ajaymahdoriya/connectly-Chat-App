@@ -297,3 +297,21 @@ The LeaveGroupDialog component exemplifies robust handling of asynchronous opera
 - *Result:* Users always receive immediate, understandable feedback, improving trust and usability.
 
 ---
+
+### 🌙 Dark Mode & Responsive UI
+
+- *Situation:* Users wanted a modern, accessible interface with dark mode and mobile support.
+- *Task:* Implement a fully responsive UI with theme toggling and accessibility best practices.
+- *Action:* Used TailwindCSS and Radix UI for responsive layouts and accessible components, integrated dark mode toggle, and tested across devices.
+- *Result:* Delivered a beautiful, accessible chat experience on any device, with seamless light/dark theme switching.
+
+---
+
+### 🧑‍💻 Convex & Clerk Integration with Next.js
+
+- *Situation:* Integrating Convex (real-time backend) and Clerk (auth) with Next.js SSR and API routes was non-trivial.
+- *Task:* Ensure secure, consistent user sessions and real-time data across client and server.
+- *Action:* Built custom hooks and middleware to synchronize authentication, handled session expiry, and separated client/server logic as needed.
+- *Result:* Maintained secure, real-time access control and data flow without breaking SSR or leaking sensitive data.
+
+---
