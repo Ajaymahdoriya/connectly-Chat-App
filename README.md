@@ -195,3 +195,7 @@ Add the following variables:
   - Maintained a clean and minimal design for the dialog, ensuring consistency with the overall application UI.
 
 ---
+## Summary
+The LeaveGroupDialog component exemplifies robust handling of asynchronous operations, error management, and user experience design. By addressing these challenges, the component ensures a seamless, reliable, and accessible experience for users performing critical actions like leaving a group.
+
+---
