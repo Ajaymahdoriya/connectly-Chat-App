@@ -103,3 +103,46 @@ Add the following variables:
 
 ---
 
+## 🧩 Challenges and Problems Faced During Development
+
+### 1. Real-Time Data Synchronization
+- *Challenge:* Ensuring all users see up-to-date conversations and messages instantly.
+- *Solution:* Leveraged Convex’s real-time queries and subscriptions, but had to carefully manage cache invalidation and UI updates to avoid stale data or race conditions.
+
+### 2. Authentication Integration
+- *Challenge:* Integrating Clerk authentication with Convex and Next.js, especially for server-side rendering and API routes.
+- *Solution:* Implemented custom hooks and middleware to synchronize user sessions and handle edge cases like token refresh and session expiry.
+
+### 3. Complex State Management
+- *Challenge:* Managing UI state for asynchronous actions (e.g., sending messages, leaving groups) and ensuring feedback is always accurate.
+- *Solution:* Built custom hooks like useMutationState to track pending states and errors, and used optimistic UI updates for a smoother experience.
+
+### 4. Error Handling and User Feedback
+- *Challenge:* Providing clear, actionable feedback for both expected and unexpected errors, especially in real-time operations.
+- *Solution:* Used Sonner for toast notifications and differentiated between known (e.g., validation) and unknown errors for better user guidance.
+
+### 5. Group and Membership Logic
+- *Challenge:* Handling group creation, member management, and permissions, including edge cases like removing the last member or deleting a group.
+- *Solution:* Designed robust backend logic and confirmation dialogs to prevent accidental data loss and ensure data integrity.
+
+### 6. Responsive and Accessible UI
+- *Challenge:* Making the app fully responsive and accessible, including keyboard navigation and screen reader support.
+- *Solution:* Utilized Radix UI primitives and followed accessibility best practices, testing across devices and input methods.
+
+### 7. Schema and Data Modeling
+- *Challenge:* Designing a scalable and flexible schema for users, conversations, messages, and group memberships.
+- *Solution:* Iteratively refined the Convex schema to support efficient queries and relationships, adding indexes for performance.
+
+### 8. Deployment and Environment Management
+- *Challenge:* Managing environment variables and deployment settings for Vercel and Convex, especially for secrets and webhooks.
+- *Solution:* Documented required environment variables and automated deployment steps, ensuring smooth CI/CD.
+
+### 9. Third-Party Integration Issues
+- *Challenge:* Dealing with breaking changes or bugs in third-party libraries (e.g., Clerk, Convex, Radix UI).
+- *Solution:* Kept dependencies up to date, read release notes, and contributed bug reports or fixes when necessary.
+
+### 10. Developer Experience and Code Quality
+- *Challenge:* Maintaining code quality and consistency in a fast-moving project.
+- *Solution:* Used ESLint, Prettier, and TypeScript for static analysis and formatting, and enforced best practices through code reviews.
+
+---
