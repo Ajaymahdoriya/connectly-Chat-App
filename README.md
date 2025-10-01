@@ -68,7 +68,7 @@ Connectly is a modern, real-time chat application built with cutting-edge techno
 
 1. Clone the repository:
    bash
-   git clone https://github.com/Aashay30/connectly.git
+   git clone https://github.com/Ajaymahdoriya/connectly.git
    cd connectly
    
 
