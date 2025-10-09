@@ -351,6 +351,7 @@ The LeaveGroupDialog component exemplifies robust handling of asynchronous opera
 ---
 ### 📝 Summary
 
+
 The Connectly project demonstrates expertise in building scalable, real-time applications with modern technologies. It highlights proficiency in both frontend and backend development, exceptional user experience design, and adherence to software engineering best practices—making it a standout addition to any engineering portfolio.
 
 ---
